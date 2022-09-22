@@ -4,6 +4,13 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "clean compile and run",
+            "type": "shell",
+            "isBackground": true,
+            "command": "start F:\\devkitPro\\projects\\nds\\ds-game\\ccr.bat",
+            "problemMatcher": []
+        },
+        {
             "label": "make debug",
             "type": "process",
             "command": "make",
@@ -38,7 +45,7 @@
             "label": "run",
             "type": "shell",
             "isBackground": true,
-            "command": "C:\\desmume\\DeSmuME_0.9.11_x86.exe",
+            "command": "F:\\devkitPro\\emulator\\release\\DeSmuME_0.9.11_x86.exe",
             "args": [
                 "${workspaceFolder}/${workspaceFolderBasename}.nds"
             ],
@@ -55,7 +62,7 @@
                 "make debug"
             ],
             "isBackground": false,
-            "command": "C:\\desmume\\DeSmuME_0.9.11_x86_dev+.exe",
+            "command": "F:\\devkitPro\\emulator\\debug\\DeSmuME_0.9.11_x86_dev+.exe",
             "args": [
                 "--arm9gdb=20000",
                 "${workspaceFolder}/${workspaceFolderBasename}.nds"
