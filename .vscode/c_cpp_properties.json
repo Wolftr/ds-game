@@ -7,6 +7,7 @@
             ],
             "includePath": [
                 "${workspaceFolder}",
+                "${workspaceFolder}\\source\\**",
                 "${workspaceFolder}\\include\\**",
                 "F:\\devkitPro\\libnds\\include\\**",
                 "F:\\devkitPro\\devkitARM\\arm-none-eabi\\include\\**",
