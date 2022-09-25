@@ -1,5 +1,4 @@
 #include "renderer.h"
-#include "source/math/vector2.cpp"
 #include <sstream>
 #include <string.h>
 

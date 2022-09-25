@@ -4,6 +4,7 @@
             "name": "NDS",
             "forcedInclude": [
                 "${workspaceFolder}\\include\\vscode_fix.h"
+
             ],
             "includePath": [
                 "${workspaceFolder}",

@@ -2,7 +2,7 @@
 #include <time.h>
 #include <nds.h>
 #include <nf_lib.h>
-#include "renderer/renderer.cpp"
+#include "renderer/renderer.h"
 #include "vlf_input.h"
 #include "vlf_rand.h"
 
@@ -41,3 +41,7 @@ int main(int argc, char **argv) {
 
 	return 0;
 }
+
+// Force all cpp files to be included in the build even when not referenced anywhere else
+#include "math/vector2.cpp"
+#include "renderer/renderer.cpp"

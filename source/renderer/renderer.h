@@ -1,16 +1,13 @@
 #ifndef RENDERER_H
 #define RENDERER_H
-
 #include <nf_lib.h>
-#include "source/math/vector2.cpp"
+#include "source/math/vector2.h"
 
 // Screen
 #define TOP_SCREEN 0
 #define BOTTOM_SCREEN 1
 
 class Renderer {
-    Vector2 viewportPosition;
-
     static const char* getBackgroundName(u8 screen, u8 layer);
 public:
     Renderer();
