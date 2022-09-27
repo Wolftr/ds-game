@@ -3,6 +3,7 @@
 #include <nds.h>
 #include <nf_lib.h>
 #include "renderer/renderer.h"
+#include "math/vector2.h"
 #include "vlf_input.h"
 #include "vlf_rand.h"
 
@@ -25,16 +26,16 @@ int main(int argc, char **argv) {
 		// Input
 		scanKeys();
 		touchRead(&vlf_input::touch);
-
+		
 		// Update
-
-
+		
+		
 		// Render
 		NF_SpriteOamSet(TOP_SCREEN); 
 		NF_SpriteOamSet(BOTTOM_SCREEN); 
-
+		
 		swiWaitForVBlank();
-
+		
 		oamUpdate(&oamMain);
 		oamUpdate(&oamSub);
 	}

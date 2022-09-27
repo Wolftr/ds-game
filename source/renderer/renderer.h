@@ -1,7 +1,7 @@
 #ifndef RENDERER_H
 #define RENDERER_H
 #include <nf_lib.h>
-#include "source/math/vector2.h"
+#include "../math/vector2.h"
 
 // Screen
 #define TOP_SCREEN 0
